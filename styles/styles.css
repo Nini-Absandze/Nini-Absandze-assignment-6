@@ -1,0 +1,58 @@
+div {
+	background-image: url(../images/bench.jpg);
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	position: relative;
+}
+
+
+.bird {
+	position: absolute;
+	width: 120px;
+	height: 130px;
+	top: 100px;
+	left: 0px;
+	transform: rotate(-30deg);
+	animation: bird 15s infinite;
+}
+
+@keyframes bird {
+  from {right: 0px;}
+  to {left: 100%;}
+}
+
+.bird2 {
+	position: absolute;
+	width: 120px;
+	height: 125px;
+	top: 25px;
+	left: 0px;	
+	transform: rotate(-30deg);
+	animation: bird 18s infinite;
+	animation-delay: 1s;
+}
+
+@keyframes rotation {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+@keyframes ball {
+	from {right: 0px;}
+	to {left: 100%;}
+}
+
+.ball {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	top: 615px;
+	left: 0px;
+	animation: ball 24s infinite;
+	animation: rotation 6s infinite linear;
+}
