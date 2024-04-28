@@ -34,22 +34,8 @@ div {
 	left: 0px;	
 	transform: rotate(-30deg);
 	animation: bird 18s infinite;
-	animation-delay: 1s;
+	animation-delay: -17s;
 }
-
-/*@keyframes ball {
-	from {right: 0px;}
-	to {left: 100%;}
-}
-
-.ball {
-	position: absolute;
-	width: 120px;
-	height: 120px;
-	top: 615px;
-	left: 0px;
-	animation: ball 24s infinite;
-}*/
 
 @keyframes animation1 {
 	from {right: 0px;}
@@ -68,4 +54,29 @@ div {
 	height: 120px;
 	top: 615px;
 	left: 0px;
-	animation: animation1 12s linear infinite, animation2 12s infinite;
+	animation: animation1 20s linear infinite, animation2 20s infinite;
+}
+
+@keyframes boy {
+	from {right: 0px}
+	to {left: 100%;}
+}
+
+.boy {
+	position: absolute;
+	width: 200px;
+	height: 300px;
+	top: 470px;
+	left: 0px;
+	animation: boy 23s infinite;
+	animation-delay: -22s;
+}
+
+.dog {
+	position: absolute;
+	width: 100px;
+	height: 120px;
+	top: 460px;
+	left: 250px;
+
+}
