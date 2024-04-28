@@ -33,8 +33,53 @@ div {
 	top: 25px;
 	left: 0px;	
 	transform: rotate(-30deg);
-	animation: bird 18s infinite;
-	animation-delay: -17s;
+	animation: bird 19s infinite;
+	animation-delay: -18s;
+}
+
+@keyframes dog{
+	from {left: 375px;}
+	to {left: 200px;}
+}
+
+.dog {
+	position: absolute;
+	width: 100px;
+	height: 120px;
+	top: 460px;
+	left: 250px;
+	animation: dog 3s infinite;
+
+}
+
+.girl {
+	position: relative;
+	width: 250px;
+	height: 200px;
+	top: 400px;
+	left: 400px;
+}
+
+.crying {
+	position: relative;
+	width: 250px;
+	height: 200px;
+	top: 400px;
+	left: 780px;
+}
+
+@keyframes icecream {
+	from {top: 400px;}
+	to {top: 460px;}
+}
+
+.icecream {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	top: 460px;
+	left: 580px;
+	animation: icecream 2s;
 }
 
 @keyframes animation1 {
@@ -46,7 +91,6 @@ div {
 	from {transform: rotate(0deg);}
 	to {transform: rotate(360deg);}
 }
-
 
 .ball {
 	position: absolute;
@@ -72,11 +116,3 @@ div {
 	animation-delay: -22s;
 }
 
-.dog {
-	position: absolute;
-	width: 100px;
-	height: 120px;
-	top: 460px;
-	left: 250px;
-
-}
