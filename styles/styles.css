@@ -37,12 +37,7 @@ div {
 	animation-delay: 1s;
 }
 
-@keyframes rotation {
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
-}
-
-@keyframes ball {
+/*@keyframes ball {
 	from {right: 0px;}
 	to {left: 100%;}
 }
@@ -54,5 +49,23 @@ div {
 	top: 615px;
 	left: 0px;
 	animation: ball 24s infinite;
-	animation: rotation 6s infinite linear;
+}*/
+
+@keyframes animation1 {
+	from {right: 0px;}
+	to {left: 100%;}
 }
+
+@keyframes animation2 {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+}
+
+
+.ball {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	top: 615px;
+	left: 0px;
+	animation: animation1 12s linear infinite, animation2 12s infinite;
