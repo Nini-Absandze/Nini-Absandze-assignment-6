@@ -98,7 +98,7 @@ div {
 	height: 120px;
 	top: 615px;
 	left: 0px;
-	animation: animation1 20s linear infinite, animation2 20s infinite;
+	animation: animation1 14s linear infinite, animation2 20s infinite;
 }
 
 @keyframes boy {
@@ -113,6 +113,6 @@ div {
 	top: 470px;
 	left: 0px;
 	animation: boy 20s infinite;
-	animation-delay: -19s;
+	animation-delay: -17s;
 }
 
